@@ -29,6 +29,7 @@ pip install scikit-learn==1.6.0
 ## To Run
 
 Build heterogeneous graphs (p.s. You can adjust the TF-IDF threshold in the 'news_edge_news' function to adjust the number of news-news edges):
+
 '''
 python load_liar.py
 '''
@@ -38,6 +39,7 @@ python load_mc fake & recovery.py --dataset <dataset>
 '''
 
 Run MUST for fake news detection
+
 '''
 python MUST.py --dataset <dataset>
 '''
